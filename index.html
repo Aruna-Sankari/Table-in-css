@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Table Styling</title>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:verdana;
+}
+table{
+border-collapse:collapse;
+font-size:16px;
+width:600px;
+margin:180px auto;
+box-shadow:0 0 20px rgba(0,0,0,0.1);
+}
+thead tr{
+    background-color:chocolate;
+    color:black;
+}
+th{
+padding:10px 15px;
+font-size:18px;
+font-weight:600;
+text-align:left;
+text-transform: uppercase;
+}
+tbody tr{
+    border-bottom:2px solid lightgrey;
+    transition:0.5s linear;
+}
+td{
+    padding:11px 15px;
+    color:rgba(0,0,0,0.8)
+}
+table tbody tr:hover td{
+    background-color:silver;
+}
+table tbody tr:nth-last-of-type(even){
+    background-color:lightcyan;
+}
+</style>
+</head>
+<body>
+<table>
+<thead>
+<tr>
+<th>S.No</th>
+<th>Name</th>
+<th>Age</th>
+<th>City</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>01</td>
+<td>Arun</td>
+<td>30</td>
+<td>London</td>
+</tr>
+<tr>
+<td>02</td>
+<td>Subi</td>
+<td>21</td>
+<td>Ambai</td>
+</tr>
+<tr>
+<td>03</td>
+<td>Priya</td>
+<td>24</td>
+<td>Tenkasi</td>
+</tr>
+<tr>
+<td>04</td>
+<td>Valli</td>
+<td>28</td>
+<td>Trichy</td>
+</tr>
+<tr>
+<td>05</td>
+<td>Gugan</td>
+<td>19</td>
+<td>Chennai</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
